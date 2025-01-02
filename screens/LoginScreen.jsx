@@ -6,10 +6,10 @@ const LoginScreen = () => {
     return (
         <View style={styles.container}>
             <LinearGradient
-                // Background Linear Gradient
-                colors={['rgba(0,0,0,0.8)', 'transparent']}
-                style={styles.background}
-            />
+            // Background Linear Gradient
+            colors={['rgba(0,0,0,0.8)', 'transparent']}
+            style={styles.background}
+        />
         </View>
     )
 }

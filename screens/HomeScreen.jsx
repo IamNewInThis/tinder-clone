@@ -5,7 +5,7 @@ import React from 'react'
 const HomeScreen = () => {
     return (
         <View style={styles.container}>
-            <Text>HomeScreen</Text>
+            <Text>HomeScreesdn</Text>
         </View>
     )
 }
@@ -14,7 +14,8 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        backgroundColor: 'white'
     }
 })
 

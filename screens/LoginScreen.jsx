@@ -1,13 +1,21 @@
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity, Platform } from "react-native";
 import React from "react";
 import { LinearGradient } from "expo-linear-gradient";
 import * as AuthSession from "expo-auth-session";
-import { getAuth, } from "firebase/auth";
+import { getAuth, GoogleAuthProvider, signInWithCredential } from "firebase/auth";
+import app from "../firebaseConfig";
+import { GoogleSignin } from "@react-native-google-signin/google-signin";
+
+const auth = getAuth(app)
 
 const LoginScreen = () => {
 
-  const handleGoogleLogin = () => {
-    console.log("Google login");
+  GoogleSignin.configure({
+    webClientId: '',
+  })
+
+  const handleGoogleLogin = async () => {
+
   }
 
   return (

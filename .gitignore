@@ -79,3 +79,6 @@ yarn-error.*
 
 # Android 
 /android
+
+/firebaseConfig.js
+/google-services.json
